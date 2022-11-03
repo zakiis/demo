@@ -1,0 +1,6 @@
+spring:
+  rabbitmq:
+    listener:      simple:        concurrency: 2
+        max-concurrency: 8
+        default-requeue-rejected: false
+        retry:          enabled: false
