@@ -1,0 +1,10 @@
+spring:
+  elasticsearch:
+    uris:
+    - http://192.168.137.100:9200
+    - http://192.168.137.100:9201
+    - http://192.168.137.100:9202
+    username: elastic
+    password: 123456
+    restclient:      sniffer:        delay-after-failure: 30s
+        interval: 10m
