@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: service-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.137.101:8848
+        
